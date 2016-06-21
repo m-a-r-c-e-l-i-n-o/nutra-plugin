@@ -1,0 +1,35 @@
+{
+  "name": "nutra-plugin",
+  "version": "0.0.2",
+  "description": "The \"nutra-plugin\" module is a nutra plugin boilerplate for new \"N.U.T.R.A.\" unit test runner plugins.",
+  "main": "dist/nutra-plugin.js",
+  "scripts": {
+    "test": "test",
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-a-r-c-e-l-i-n-o/nutra-plugin.git"
+  },
+  "keywords": [
+    "N.U.T.R.A.",
+    "runner",
+    "plugin",
+    "node",
+    "unit",
+    "test",
+    "testing"
+  ],
+  "author": "m-a-r-c-e-l-i-n-o <me@marceli.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-a-r-c-e-l-i-n-o/nutra-plugin/issues"
+  },
+  "homepage": "https://github.com/m-a-r-c-e-l-i-n-o/nutra-plugin#readme",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2016-node5": "^1.1.2"
+  },
+  "dependencies": {}
+}
